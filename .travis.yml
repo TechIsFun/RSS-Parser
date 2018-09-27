@@ -1,0 +1,19 @@
+language: android
+android:
+  components:
+  - build-tools-25.0.2
+  - android-25
+  - extra-google-google_play_services
+  - extra-google-m2repository
+  - extra-android-m2repository
+  - addon-google_apis-google-19
+script:
+- "./gradlew build"
+deploy:
+  provider: releases
+  api_key:
+    secure: pEgyNmHdAexY2VtjnRSRRhgM9KZyQff+kGXut8u4cpKbbFARjqIdBS2Rsuwf0/yhx0dHREGX7iSlGPmJFsOSaIqn2kWXPzO73jg90DE+Jw0VJqFFk96ybAQtFXTBbBnco0iooJok2kUNwSJvMgnz38wmQJ/J9y57Opg9HDtZoQHYxJtUsb0dniaSp6s/Lnf4xPtAMnFrbSTeqYuCn0Wggy5Lznlt5cKZ8riNauy3VWYhHyMmCuBY3bEIe8NF3dY9SrqdL8jTs+XxYlnGeFVmZFWo3f5L8olQNs9ixIu1U8jeieMvaT94XZsMUTH2HOjYfWIT8IuoesihPhkLQ5JDkFM94FqU+9A6kjuvnH/ptNOvvNSrdZX4uXFlcB8IfnjykXlRLjg9097xhCpmZphKU4Ve9dzMe2Z3KqgWcixNBQfcaQsrNZuLKrqp6W/XWsj298YfPUfWE0WFwf4l45CElpjKv3V5JFzKWUtsTYVBuP1y0cMujol0Of7OBsOEqesss3xsiWGLHPTuVzWGKqpWtQgIkoJX9WSz+C5KIeoia2LnysCIIVft4vtt/LPDlBZ2jwmiY3c9/DKNXtgHC3THTeh0X1oy6Q0+sxxoNIocBV68RkWS5wQGX4MiDGUckkMt6mKPVb4JjD5rD3jhCBcqamYfXjY90u2/g1yJ4pxuSz8=
+  file: rssparser/build/outputs/aar/rssparser-release.aar
+  on:
+    repo: TechIsFun/RSS-Parser
+    branch: devfest
