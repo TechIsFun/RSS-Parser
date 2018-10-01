@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TechIsFun/RSS-Parser.svg?branch=devfest)](https://travis-ci.org/TechIsFun/RSS-Parser)
+
 # RSS Parser
 [![Download](https://api.bintray.com/packages/prof18/maven/RSS-Parser/images/download.svg)](https://bintray.com/prof18/maven/YoutubeParser/_latestVersion)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
