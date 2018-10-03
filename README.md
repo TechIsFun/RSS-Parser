@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/TechIsFun/RSS-Parser.svg?branch=devfest)](https://travis-ci.org/TechIsFun/RSS-Parser)
+[![](https://jitpack.io/v/techisfun/RSS-Parser.svg)](https://jitpack.io/#techisfun/RSS-Parser)
 
 # RSS Parser
 [![Download](https://api.bintray.com/packages/prof18/maven/RSS-Parser/images/download.svg)](https://bintray.com/prof18/maven/YoutubeParser/_latestVersion)
